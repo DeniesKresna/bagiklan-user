@@ -1,0 +1,16 @@
+package Translations
+
+var InventoryNotFound string = "Inventaris tidak ditemukan"
+var InventoryExist string = "Sudah ada Inventaris tersebut"
+var InventoryCreateServerError string = "Tidak bisa buat Inventaris. Kesalahan server"
+var InventoryUpdateServerError string = "Tidak bisa ubah Inventaris. Kesalahan server"
+var InventoryCreated string = "Inventaris berhasil dibuat"
+var InventoryUpdated string = "Inventaris berhasil diubah"
+var InventoryCreateUploadError string = "Tidak bisa buat Inventaris. Upload gambar gagal"
+var InventoryUpdateUploadError string = "Ubah Inventaris berhasil. Upload gambar gagal"
+var InventoryCreateDocumentError string = "Buat Inventaris berhasil. Upload Dokumen gagal"
+var InventoryUpdateDocumentError string = "Ubah Inventaris berhasil. Upload Dokumen gagal"
+var InventoryDeleted string = "Inventaris berhasil dihapus"
+var InventoryFilteredNotFound string = "Filter Inventaris salah"
+var InventoryUpdatePeriodSuccess string = "Update Inventarisasi berhasil"
+var InventoryDocumentNotFound string = "Dokumen Inventaris tidak ditemukan"
