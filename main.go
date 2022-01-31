@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/DeniesKresna/beinventaris/Configs"
-	"github.com/DeniesKresna/beinventaris/Routers"
+	"github.com/DeniesKresna/bagiklan-user/Configs"
+	"github.com/DeniesKresna/bagiklan-user/Routers"
 	check "github.com/asaskevich/govalidator"
 )
 

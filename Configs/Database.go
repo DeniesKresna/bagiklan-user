@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/DeniesKresna/beinventaris/Models"
+	"github.com/DeniesKresna/bagiklan-user/Models"
 	"github.com/joho/godotenv"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -35,8 +35,7 @@ func DatabaseInit() (err error) {
 }
 
 func DatabaseMigrate() {
-	DB.AutoMigrate(&Models.User{}, &Models.Role{}, &Models.Academy{}, &Models.Unit{}, &Models.Room{}, &Models.GoodsType{}, &Models.Inventory{},
-		&Models.Condition{}, &Models.History{}, &Models.Period{}, &Models.Survey{})
+	DB.AutoMigrate(&Models.User{}, &Models.Role{})
 }
 
 func init() {

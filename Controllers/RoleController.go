@@ -3,9 +3,9 @@ package Controllers
 import (
 	"strconv"
 
-	"github.com/DeniesKresna/beinventaris/Configs"
-	"github.com/DeniesKresna/beinventaris/Models"
-	"github.com/DeniesKresna/beinventaris/Response"
+	"github.com/DeniesKresna/bagiklan-user/Configs"
+	"github.com/DeniesKresna/bagiklan-user/Models"
+	"github.com/DeniesKresna/bagiklan-user/Response"
 	"github.com/gin-gonic/gin"
 	"github.com/gookit/validate"
 )

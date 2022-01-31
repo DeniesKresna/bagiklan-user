@@ -3,8 +3,8 @@ package Routers
 import (
 	"fmt"
 
-	"github.com/DeniesKresna/beinventaris/Controllers"
-	"github.com/DeniesKresna/beinventaris/Middlewares"
+	"github.com/DeniesKresna/bagiklan-user/Controllers"
+	"github.com/DeniesKresna/bagiklan-user/Middlewares"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"

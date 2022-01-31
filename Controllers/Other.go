@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/DeniesKresna/beinventaris/Response"
+	"github.com/DeniesKresna/bagiklan-user/Response"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 )

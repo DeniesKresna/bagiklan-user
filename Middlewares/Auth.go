@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DeniesKresna/beinventaris/Configs"
-	"github.com/DeniesKresna/beinventaris/Models"
-	"github.com/DeniesKresna/beinventaris/Response"
+	"github.com/DeniesKresna/bagiklan-user/Configs"
+	"github.com/DeniesKresna/bagiklan-user/Models"
+	"github.com/DeniesKresna/bagiklan-user/Response"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 )
